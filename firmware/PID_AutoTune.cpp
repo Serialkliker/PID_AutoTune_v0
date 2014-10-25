@@ -1,15 +1,4 @@
-#ifdef ARDUINO
-  #if (ARDUINO >= 100)
-   #include <Arduino.h>
-  #else
-   #include <WProgram.h>
-   #include <pins_arduino.h>
-  #endif
-#elif USE_SPARK_CORE_V02
-  #include <spark_related_stuff_v2.h>
-#elif USE_SPARK_CORE_V01
-  #include <spark_related_stuff_v1.h>
-#endif
+#include "application.h"
 #include "PID_AutoTune.h"
 
 
