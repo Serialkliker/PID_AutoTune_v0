@@ -1,0 +1,7 @@
+{
+  "name": "PID AutoTune Library",
+  "author": "Brett Beauregard <br3ttb@gmail.com> brettbeauregard.com",
+  "license": "BSD License",
+  "version": "0.0.1",
+  "description": "This Library is ported from the AutotunerPID Toolkit by William Spinelli"
+}
