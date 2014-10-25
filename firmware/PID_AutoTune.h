@@ -1,5 +1,5 @@
-#ifndef PID_AutoTune_v0
-#define PID_AutoTune_v0
+#ifndef PID_AutoTune
+#define PID_AutoTune
 #define LIBRARY_VERSION	0.0.1
 
 class PID_ATune
