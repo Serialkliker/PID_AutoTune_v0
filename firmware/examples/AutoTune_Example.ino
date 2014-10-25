@@ -1,5 +1,5 @@
-#include <PID_v1.h>
-#include <PID_AutoTune_v0.h>
+#include "pid/pid.h"
+#include "PID_AutoTune/PID_AutoTune.h"
 
 byte ATuneModeRemember=2;
 double input=80, output=50, setpoint=180;
